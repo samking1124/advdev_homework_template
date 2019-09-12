@@ -1,3 +1,4 @@
+
 #!groovy
 podTemplate(
   label: "skopeo-pod",
@@ -9,7 +10,7 @@ podTemplate(
       image: "docker-registry.default.svc:5000/${GUID}-jenkins/jenkins-agent-appdev",
       resourceRequestMemory: "1Gi",
       resourceLimitMemory: "2Gi",
-      resourceRequestCpu: "200m",
+      resourceRequestCpu: "500m",
       resourceLimitCpu: "2"
     )
   ]
