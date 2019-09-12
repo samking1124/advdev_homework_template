@@ -7,10 +7,10 @@ huang.xin@qianjingiot.com
 https://github.com/samking1124/advdev_homework_template.git
 
 == jenkins console history
-https://jenkins-gpte-jenkins.apps.na311.openshift.opentlc.com/job/Advanced%20Development%20Homework%20Grading/3450/console
+https://jenkins-gpte-jenkins.apps.na311.openshift.opentlc.com/job/OpenShift%20Advanced%20Application%20Deployment%20Homework%20Grading/50/console
 
 == jenkins parameters
 GUID=huangxin
-USER=huang.xin-redhat.com
+USER=huang.xin@qianjingiot.com
 REPO=https://github.com/samking1124/advdev_homework_template.git
 CLUSTER=na311.openshift.opentlc.com
