@@ -11,6 +11,6 @@ https://jenkins-gpte-jenkins.apps.na311.openshift.opentlc.com/job/OpenShift%20Ad
 
 == jenkins parameters
 GUID=huangxin
-USER=huang.xin@qianjingiot.com
+USER=huang.xin-qianjingiot.com
 REPO=https://github.com/samking1124/advdev_homework_template.git
 CLUSTER=na311.openshift.opentlc.com
