@@ -1,4 +1,3 @@
-
 #!groovy
 podTemplate(
   label: "skopeo-pod",
@@ -10,7 +9,7 @@ podTemplate(
       image: "docker-registry.default.svc:5000/${GUID}-jenkins/jenkins-agent-appdev",
       resourceRequestMemory: "1Gi",
       resourceLimitMemory: "2Gi",
-      resourceRequestCpu: "500m",
+      resourceRequestCpu: "200m",
       resourceLimitCpu: "2"
     )
   ]
@@ -35,7 +34,7 @@ podTemplate(
       def version = getVersionFromPom("pom.xml")
 
       // TBD Set the tag for the development image: version + build number
-      def devTag  = version + "-" + currentBuild.number
+      def devTag  = version+ "-"+currentBuild.number
 
       // Set the tag for the production image: version
       def prodTag = version
