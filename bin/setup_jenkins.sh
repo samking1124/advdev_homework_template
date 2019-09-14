@@ -41,7 +41,7 @@ items:
       contextDir: openshift-tasks
       type: 'git'
       git:
-        uri: 'https://github.com/zhengbin78/advdev_homework_template.git'
+        uri: '${REPO}'
     strategy:
       type: 'JenkinsPipeline'
       jenkinsPipelineStrategy:
